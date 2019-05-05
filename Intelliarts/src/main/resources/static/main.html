@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Intellarts</title>
+</head>
+<body>
+
+<form class = "purchasee">
+    <label for="date">Date: </label>
+    <input type="text" id="date" placeholder="Insert date: (format yyyy-mm-dd)">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" step="0.01" min="0" placeholder="0.00">
+    <select id = "currencyDrop">
+
+    </select>
+    <input type="text" id="name" placeholder="Product name...">
+    <input type="submit" id="submit-button">
+</form>
+<table id = "products">
+<tr>
+    <th>Date</th>
+    <th>Name</th>
+    <th>Amount</th>
+    <th>Currency</th>
+</tr>
+</table>
+<br>
+
+<input type="button" id="getall" value="Get All Products"><br>
+<label for="date">Delete Date: </label>
+<input type="text" id="delete-date" placeholder="Insert date: (format yyyy-mm-dd)">
+<input type="submit" id="submit-delete">
+<table id = "all-products">
+    <tr>
+        <th>Date</th>
+        <th>Name</th>
+        <th>Amount</th>
+        <th>Currency</th>
+    </tr>
+</table>
+<br>
+<label for="year">Year:</label>
+<input type="text" id="year" placeholder="Insert year:">
+<select id = "currencyReportDrop">
+
+</select>
+<input type="submit" id="submit-report">
+<table id = "report-table">
+    <tr>
+        <th>Amount</th>
+        <th>Currency</th>
+    </tr>
+</table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
