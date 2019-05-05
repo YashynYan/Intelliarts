@@ -5,3 +5,6 @@
 "spring.datasource.password=" your username and password from MySQL.
 4)Run the app
 5)Open browser and go to "http://localhost:8080/"
+
+
+Report command isn't working properly because it responces with 104 error which is caused by FreeSubscription plan.
